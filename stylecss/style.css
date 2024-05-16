@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: "Outfit", sans-serif;
+}
+
+p{
+    margin-bottom: 1px;
+
+}
+.img {
+    width: 100%;
+}
+
+#navegacion {
+    background-color: rgb(18, 180, 220);
+    width: 100%;
+    padding: 1%;
+}
+
+.contenedor_carrusel {
+    width: 90%;
+    padding-left: 10%;
+}
+
+#jprocean, #inicio, #quienes_somos, #noticias, #nuestro_trabajo, #boton {
+    color: white;
+}
+
+.imagen_noticia3 {
+    width: 100%;
+}
+
+.imagen_noticia2 {
+    width: 100%;
+    height: 80%;
+}
+
+.imagen_noticia1 {
+    width: 100%;
+    height: 90%;
+}
+
+#boton {
+    background-color: white;
+}
+
+.contenedor_imagen_principio {
+    width: 100%;
+    text-align: center;
+}
+
+.imagen_jpr, .imagen_quienes_somos {
+    width: 90%;
+}
+
+.imagen_noticias {
+    width: 60%;
+    margin-bottom: 2%;
+}
+
+.imagen_quienes_somos {
+    margin-bottom: 3%;
+}
+
+.texto_somos {
+    font-size: 130%;
+    color:  rgb(10, 169, 213);
+}
+
+.imagen_intro {
+    width: 55%;
+    margin-left: 22.5%;
+    background-color: white;
+}
+
+.introduccion {
+    background-image: url(../img/imagen_5.png);
+}
+
+.introduccion_texto {
+    background-color: rgb(10, 169, 213);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+.contenedor_texto {
+    color: white;
+    padding-bottom: 1%;
+}
+
+.bienvenida,.texto_quienes_somos {
+    font-size: 200%;
+    text-align: center;
+}
+
+.texto_quienes_somos {
+    color:  rgb(10, 169, 213);
+}
+
+.link_noticias {
+    text-decoration: none;
+}
+
+.contacto_div_volver {
+    padding: 1%;
+    align-content: center;
+}
+
+.texto_volver {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+
+.texto_icono {
+    font-size: 150%;
+    color:  rgb(10, 169, 213);
+}
+
+.fila{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    padding: 3%;
+}
+
+.fila_contacto{
+    width: 100%;
+    background-color: white;
+    padding: 3%;
+}
+
+.titulo_contacto {
+    width: 100%;
+    text-align: center;
+    background-color:  rgb(10, 169, 213);
+    color: white;
+    padding: 1%;
+    font-size: 180%;
+}
+
+.contacto_div_imagen {
+    width: 50%;
+    text-align: center;
+    align-content: center;
+}
+
+.imagen_icono {
+    width: 40%;
+    margin: 3%;
+}
+
+.contacto_icono {
+    display: flex;
+}
+
+.col-izq {
+    text-align: center;
+    width: 50%; 
+    align-content: center;
+    padding: 2%;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(10, 169, 213);
+    font-size: 150%;
+}
+
+.texto_fila {
+    font-size: 150%;
+    color: rgb(10, 169, 213);
+}
+
+.texto_fila2 {
+    font-size: 150%;
+    color: rgb(10, 169, 213);
+    margin-top: 15%;
+}
+
+.col-der {
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    padding: 2%;
+}
+
+.imagen_contaminacion {
+    width: 100%;
+    border: 5px solid rgb(10, 169, 213);
+}
+
+.texto_carrusel {
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0.578);
+}
+
+
+@media screen and (max-width:1000px ) {
+    .bienvenida,.texto_somos {
+        font-size: 110%;
+    }
+
+    .texto_fila, .texto_fila2 {
+        font-size: 110%;
+    }
+
+    .imagen_jpr, .imagen_quienes_somos {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px ) {
+    .contacto_icono, .fila {
+        display: block;
+    }
+
+    .contacto_div_imagen, .col-izq, .col-der {
+        width: 100%;
+    }
+}
